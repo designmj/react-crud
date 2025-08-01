@@ -1,0 +1,92 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.App {
+  max-width: 800px;
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.post-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.post-form {
+  min-width: 600px;
+  color: black;
+  background: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.post-item {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-item .edit-mode-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-item .edit-input,
+.post-item .edit-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.post-item .edit-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+button:nth-child(2) {
+  background: #f44336;
+}
+
+button:nth-child(2):hover {
+  background: #d32f2f;
+}
